@@ -1,5 +1,29 @@
 [
     {
+        "caption": "Tools",
+        "mnemonic": "T",
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Grunt",
+                "id": "grunt",
+                "children": [
+                    {
+                        "id": "grunt",
+                        "caption": "Grunt",
+                        "command": "grunt"
+                    },
+                    {
+                        "id": "grunt_kill",
+                        "caption": "Kill Running Grunt Tasks",
+                        "command": "grunt_kill"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "caption": "Preferences",
         "mnemonic": "n",
         "id": "preferences",
